@@ -58,6 +58,9 @@ class UserProfile(BaseModel):
 # -------------------------
 # API Endpoint
 # -------------------------
+@app.get("/")
+def home():
+    return {"message": "AI Scheme Advisor API running"}
 
 @app.post("/recommend")
 

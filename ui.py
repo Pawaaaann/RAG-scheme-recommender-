@@ -3,7 +3,7 @@ import requests
 import re
 import os
 
-API_URL = os.getenv("SCHEME_ADVISOR_API_URL", "http://127.0.0.1:8000/recommend")
+API_URL = os.getenv("SCHEME_ADVISOR_API_URL", "https://rag-scheme-advisor.onrender.com/recommend")
 
 st.set_page_config(
     page_title="AI Government Scheme Advisor",
